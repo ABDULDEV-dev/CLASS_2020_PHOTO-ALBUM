@@ -1,0 +1,75 @@
+header{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+    color: blue;
+    line-height: 0.3;
+    border: double 4px blue;
+
+
+}
+
+header h1{
+    font-size: 40px;
+
+}
+
+h2{
+    font-size: 35px;
+}
+
+
+.card-container {
+    display: flex;
+     height: 100vw;
+     gap: 15px;
+     border: dashed 6px blue;
+     margin-top: 2%;
+    
+    
+}
+.card{
+            width: 300px;
+            height: 400px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(39, 15, 255, 0.1);
+            text-align: center;
+            padding: 20px;
+            border: 1px solid ;
+            box-shadow: 0 0 10px blue;
+            transition: 0.9s;
+            margin-top: 2%;
+            margin-left: 2%;
+            border-radius: 8%;
+            font-family: "Playwrite DE Grund", cursive;
+            font-optical-sizing: 2rem;
+            font-weight: 100px;
+            font-style: normal;
+            line-height: 1;
+
+}
+
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.social-link:hover{
+    color: green;
+}
+
+img{
+    width: 400x;
+              height: 200px;
+                border-radius: 30%;
+                object-fit: cover;
+             margin-bottom: 15px;
+}
+.social-link a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 40px;
+    gap: 30px;
+    
+}
